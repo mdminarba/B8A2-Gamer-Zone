@@ -368,6 +368,63 @@ nav a{
 
 
 /*------------------------------------------------------------------------------------------
+ -----------------------------------------.Play-Games-section styles---------------------------------*/
+
+
+ .Play-Games-section{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 50px 150px;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.Play-Games-conten{}
+
+.Play-Games-titel{
+    color: #0B0223;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.Online{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.Play-Games-drection{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+
+
+.Play-Games-image img{
+    width: 500px;
+    height:550px ;
+    
+}
+
+.Play-Games-image{
+    position: relative;
+}
+
+.Play-Games-image .Play-Games-images img{
+    width:250px;
+    height: 260px;
+    position: absolute;
+    bottom: -50px;
+    right: -120px;
+}
+
+
+/*------------------------------------------------------------------------------------------
  -----------------------------------------mobil divaic  responsive ---------------------------------*/
 
  @media screen and (max-width:576px) {
@@ -446,6 +503,29 @@ nav a{
         width: 116px;
         height: 160px;
 
+    }
+
+
+
+    .Play-Games-section{
+        flex-direction:column-reverse;
+        padding: 10px 5px;
+        text-align: center;
+        gap: 10px;
+    }
+    .Play-Games-image img{
+        max-width:65%;
+        height: 300px;
+        
+    }
+
+    .Play-Games-image .Play-Games-images img{
+        position: absolute;
+        right: -3px;
+        position: absolute;
+        bottom: -25px;
+        width: 133px;
+        height: 163px
     }
 
     
@@ -528,6 +608,27 @@ nav a{
             width: 116px;
             height: 160px;
     
+        }
+
+        .Play-Games-section{
+            flex-direction:column-reverse;
+            padding: 10px 5px;
+            text-align: center;
+            gap: 10px;
+        }
+        .Play-Games-image img{
+            max-width:65%;
+            height: 300px;
+            
+        }
+    
+        .Play-Games-image .Play-Games-images img{
+            position: absolute;
+            right: -3px;
+            position: absolute;
+            bottom: -25px;
+            width: 133px;
+            height: 163px
         }
         
     
