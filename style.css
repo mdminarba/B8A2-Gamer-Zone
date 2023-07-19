@@ -102,11 +102,13 @@ nav a{
 }
 .banner-conted img{
     width: 670px;
+    height: 467px;
 }
 
 .banner-conted{
+
     position: absolute;
-    top: -79px;
+    top: -74px;
     left: -150px;
 }
 
@@ -166,6 +168,62 @@ nav a{
 
 }
 
+/*------------------------------------------------------------------------------------------
+ -----------------------------------------gamer-section styles---------------------------------*/
+
+.gamer-section{
+    display: flex;
+    padding: 50px 150px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-image{
+    width: 60%;
+}
+.gamer-image img{
+    max-width: 100%;
+   
+}
+
+.gamer-conten{
+    text-align: right;
+    width: 40%;
+}
+
+.gamer-titel{
+    
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+.gamer-drection{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.purpose{
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 15px;
+
+}
+
+.gamer-footer{
+    color: #534C64;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 8px;
+
+
+}
 
 
 /*------------------------------------------------------------------------------------------
@@ -181,6 +239,11 @@ nav a{
     .nav-titel{
        justify-content: center;
     }
+
+    nav, nav ul{
+            
+        flex-direction: column;
+     }
 
 
     .banner-section{
@@ -200,6 +263,16 @@ nav a{
     .banner-image{
         width: 100%;
     }
+    .gamer-section{
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+    .gamer-conten,.gamer-image{
+        text-align: center;
+        width:100%;
+    }
+
+    
  }
 
 
@@ -237,6 +310,14 @@ nav a{
         }
         .banner-image{
             width: 100%;
+        }
+        .gamer-section{
+            flex-direction: column;
+            padding: 10px 5px;
+        }
+        .gamer-conten,.gamer-image{
+            text-align: center;
+            width:100%;
         }
         
     
