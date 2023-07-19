@@ -543,6 +543,88 @@ nav a{
     padding: 0 15px;
 }
 
+/*------------------------------------------------------------------------------------------
+ -----------------------------------------.footer-section styles---------------------------------*/
+
+.footer-section{
+    padding: 100px 130px;;
+    background: #0B0223;
+    text-align: center;
+
+}
+.footer-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer-header img{
+    width: 70px;
+    height: 35px;
+}
+.footer-conten{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+}
+.footer-text ul{
+    margin: 15px 0;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.footer-text ul li{
+
+    list-style: none;
+    margin: 15px;
+}
+
+.footer-text ul li a{
+    color: #FFF;
+    text-decoration:none ;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.footer-social-icon{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.footer-social-icon img{
+    width: 35px;
+    height: 35px;
+}
+
+.footer-text-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.footer-text-2 ul li{
+
+    list-style: none;
+    margin: 15px;
+}
+
+.footer-text-2  li a{
+    color: #FFF;
+    text-decoration:none ;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+.footer-entd{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 12px;
+    font-weight: 400;
+    margin: 20px;
+}
 
 /*------------------------------------------------------------------------------------------
  -----------------------------------------mobil divaic  responsive ---------------------------------*/
