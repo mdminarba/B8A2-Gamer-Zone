@@ -600,14 +600,13 @@ nav a{
     height: 35px;
 }
 
-.footer-text-2{
+.footer-text-2 ul {
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
 
-.footer-text-2 ul li{
-
+.footer-text-2  li{
     list-style: none;
     margin: 15px;
 }
@@ -751,6 +750,27 @@ nav a{
         
     }
 
+    .footer-social-icon {
+        display: grid;
+        grid-template-columns: repeat(3,3fr);
+        gap: 20px;
+    }
+
+    .footer-text-2 ul,.footer-text ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        font-size: 10px;
+    
+
+    }
+
+
+    .footer-section{
+        padding: 10px 10px;
+        
+    }
+
+
     
 
     
@@ -875,6 +895,10 @@ nav a{
             grid-template-columns: repeat(3,1fr);
             
         }
+
+        .footer-section{
+            padding: 10px 10px;
+        }    
         
     
  }
