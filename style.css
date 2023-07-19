@@ -144,6 +144,13 @@ nav a{
     text-transform: lowercase;
     margin-top: 10px;
 }
+
+.buttons img{
+    width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    
+}
 .btn-primary{
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
@@ -226,7 +233,7 @@ nav a{
 }
 
 /*------------------------------------------------------------------------------------------
- -----------------------------------------gamer-section styles---------------------------------*/
+ -----------------------------------------Online-Games-Funny-section styles---------------------------------*/
 
 .Online-Games-Funny{
     padding: 50px 150px;
@@ -309,6 +316,56 @@ nav a{
 
 }
 
+/*------------------------------------------------------------------------------------------
+ -----------------------------------------.Play-Instantly-section styles---------------------------------*/
+
+
+
+.Play-Instantly-section{
+    display: flex;
+    gap: 150px;
+    padding: 50px 150px;
+    align-items: center;
+    text-align: right;
+    margin-top: 30px;
+}
+
+.Play-Instantl-conten{}
+
+.Play-Instantl-titel{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.Play-Instantl-drection{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+
+
+.Play-Instantl-image img{
+    width: 500px;
+    height:550px ;
+    
+}
+
+.Play-Instantl-image{
+    position: relative;
+}
+
+.Play-Instantl-image .Play-Instantl-images img{
+    width:260px;
+    height: 300px;
+    position: absolute;
+    bottom: -48px;
+    left: -120px;
+}
+
 
 /*------------------------------------------------------------------------------------------
  -----------------------------------------mobil divaic  responsive ---------------------------------*/
@@ -367,6 +424,28 @@ nav a{
         align-items: center;
         gap: 50px;
         
+    }
+
+
+    .Play-Instantly-section{
+        flex-direction: column;
+        padding: 10px 5px;
+        text-align: center;
+        gap: 10px;
+    }
+    .Play-Instantl-image img{
+        max-width:65%;
+        height: 300px;
+        
+    }
+
+    .Play-Instantl-image .Play-Instantl-images img{
+        position: absolute;
+        bottom: -25px;
+        left: -5px;
+        width: 116px;
+        height: 160px;
+
     }
 
     
@@ -429,6 +508,26 @@ nav a{
             grid-template-columns: repeat(2,2fr);
             justify-items: center;
             gap: 30px;
+        }
+        .Play-Instantly-section{
+            flex-direction: column;
+            padding: 10px 5px;
+            text-align: center;
+            gap: 10px;
+        }
+        .Play-Instantl-image img{
+            max-width:65%;
+            height: 300px;
+            
+        }
+    
+        .Play-Instantl-image .Play-Instantl-images img{
+            position: absolute;
+            bottom: -25px;
+            left: -5px;
+            width: 116px;
+            height: 160px;
+    
         }
         
     
