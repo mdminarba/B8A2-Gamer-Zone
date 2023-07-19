@@ -494,10 +494,11 @@ nav a{
     width: 50%;
 }
 .Careers-image img{
-    width: 665px;
+    max-width: 665px;
     height: 516px;
 
 }
+.icon-item-section{}
 
 
 /*------------------------------------------------------------------------------------------
@@ -604,6 +605,20 @@ nav a{
         height: 163px
     }
 
+    .Careers-section{
+        flex-direction: column;
+        padding: 10px 5px;
+    }
+
+    .Careers-image img{
+        width: 100%;
+
+    }
+
+    .Careers-conten{
+        text-align: center;
+    }
+
     
 
     
@@ -632,7 +647,7 @@ nav a{
             flex-direction:column-reverse;
         }
         .banner-section{
-            padding: 0 5px;
+            padding: 0 50px;
         }
         .banner-conted{
             width: 100%;
@@ -647,7 +662,7 @@ nav a{
         }
         .gamer-section{
             flex-direction: column;
-            padding: 10px 5px;
+            padding: 10px 50px;
         }
         .gamer-conten,.gamer-image{
             text-align: center;
@@ -667,7 +682,7 @@ nav a{
         }
         .Play-Instantly-section{
             flex-direction: column;
-            padding: 10px 5px;
+            padding: 10px 50px;
             text-align: center;
             gap: 10px;
         }
@@ -688,7 +703,7 @@ nav a{
 
         .Play-Games-section{
             flex-direction:column-reverse;
-            padding: 10px 5px;
+            padding: 10px 50px;
             text-align: center;
             gap: 10px;
         }
@@ -705,6 +720,21 @@ nav a{
             bottom: -25px;
             width: 133px;
             height: 163px
+        }
+
+
+        .Careers-section{
+            flex-direction: column;
+            padding: 10px 50px;
+        }
+    
+        .Careers-image img{
+            width: 100%;
+    
+        }
+    
+        .Careers-conten{
+            text-align: center;
         }
         
     
