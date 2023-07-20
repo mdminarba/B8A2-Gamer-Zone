@@ -173,7 +173,7 @@ nav a{
     font-size: 20px;
     font-weight: 600;
     margin-left: 20px;
-   
+    cursor: pointer;
     
 
 }
@@ -794,12 +794,24 @@ width:fit-content;
         text-align: center;
     }
 
-    .icon-item-imag-1,.icon-item-imag-2{
-        padding: 10px 5px;
+    .icon-item-imag-2{
+        padding: 5px 30px;
         display: grid;
         grid-template-columns: repeat(2,1fr);
         
+        
+        
     }
+    .icon-item-imag-1{
+        padding: 5px 30px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      
+
+        
+    }
+
+    
 
     .footer-social-icon {
         display: grid;
@@ -815,9 +827,9 @@ width:fit-content;
 
     }
 
-
     .footer-section{
         padding: 10px 10px;
+        
         
     }
 
