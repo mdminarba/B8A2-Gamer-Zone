@@ -160,7 +160,7 @@ nav a{
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
-    cursor: pointer;
+   
 
 }
 .btno-primary{
@@ -173,7 +173,7 @@ nav a{
     font-size: 20px;
     font-weight: 600;
     margin-left: 20px;
-    cursor: pointer;
+   
     
 
 }
@@ -527,6 +527,7 @@ nav a{
 .icon-item-section{
     background: hsl(0, 12%, 97%);
     padding: 50px 0;
+    
 }
 .icon-item-imag-1{
    display: flex;
@@ -553,6 +554,7 @@ nav a{
     padding-right: 10px;
     cursor: pointer;
     position: relative;
+    transition: .5s;
     
 }
 .icon img{
@@ -566,30 +568,28 @@ nav a{
     font-weight: 600;
     padding: 0 15px;
 }
-{}
-.icon:hov {
-   
 
-}
+/* .icon:hover{
+border: 5px solid brown;
+width:fit-content;
+} */
 
 .hovoer{
     top: 0;
     left: 0;
     position: absolute;
-    border: 3px solid rgb(228, 69, 220);
+    border: 4px solid rgb(228, 69, 220);
     border-radius: 50px;
-    width: 0;
-    height: 0;
+    width: 100%;
+    height: 100%;
     visibility: hidden;
-    transform: scale(1);
-    transition: .8s;
+    transition:.4s;
     opacity: 0;
 
 }
 .icon:hover .hovoer{
-    width: 100%;
     height: 100%;
-    color:red;
+    background: #8dcfee50;
     visibility: visible;
     opacity: 1;
 }
