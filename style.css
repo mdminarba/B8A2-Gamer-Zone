@@ -160,6 +160,7 @@ nav a{
     color: #FFF;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
 
 }
 .btno-primary{
@@ -172,6 +173,8 @@ nav a{
     font-size: 20px;
     font-weight: 600;
     margin-left: 20px;
+    cursor: pointer;
+    
 
 }
 
@@ -507,6 +510,7 @@ nav a{
     font-size: 20px;
     font-weight: 600;
     margin-left: 20px;
+    cursor: pointer;
 }
 .Careers-image{
     width: 50%;
@@ -547,7 +551,8 @@ nav a{
     align-items: center;
     text-align: center;
     padding-right: 10px;
-    
+    cursor: pointer;
+    position: relative;
     
 }
 .icon img{
@@ -561,9 +566,32 @@ nav a{
     font-weight: 600;
     padding: 0 15px;
 }
-.icon:hover {
-    border: 2px solid rgb(228, 69, 220);
+{}
+.icon:hov {
+   
 
+}
+
+.hovoer{
+    top: 0;
+    left: 0;
+    position: absolute;
+    border: 3px solid rgb(228, 69, 220);
+    border-radius: 50px;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+    transform: scale(1);
+    transition: .8s;
+    opacity: 0;
+
+}
+.icon:hover .hovoer{
+    width: 100%;
+    height: 100%;
+    color:red;
+    visibility: visible;
+    opacity: 1;
 }
 
 /*------------------------------------------------------------------------------------------
