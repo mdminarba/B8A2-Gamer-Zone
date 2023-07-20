@@ -809,9 +809,8 @@ width:fit-content;
       
 
         
-    }
-
     
+    }
 
     .footer-social-icon {
         display: grid;
@@ -824,17 +823,12 @@ width:fit-content;
         grid-template-columns: repeat(2,1fr);
         font-size: 10px;
     
-
     }
-
-    .footer-section{
-        padding: 10px 10px;
-        
-        
-    }
-
 
     
+   .Play-Instantl-titel{
+    font-size: 40;
+   }
 
     
  }
